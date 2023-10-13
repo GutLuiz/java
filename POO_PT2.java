@@ -43,4 +43,35 @@ public class Main {
 		
 		sc.close();
 	}
+	package entities;
+
+public class Product {
+	public String name;
+	public double price;
+	public int quantity;
+	
+	//mostrando o valor total dos produtos:
+	public double totalValueInStock() {
+		return price * quantity;
+	}
+	//adicionando produtos:
+	public void addProducts(int quantity) {
+		this.quantity += quantity; //o "this" mostra que voce quer acessar o atributo da classe, nao o parametro que esta em ()
+	}
+	//removendo os produtos:
+	public void removeProduct(int quantity) {
+		this.quantity -= quantity;
+	}
+	//mostrando no console o resultado usando toString:
+	public String toString() { //facilitando o print no console com o "toString"
+		return name 
+				+ ", $ "
+				+ String.format("%.2f", price) // usando format para casas decimais.
+				+ ", " 
+				+ quantity // colocando o atributo para ser printado
+				+ " units, total: $ " //adicionando informaçoes para ficar mais organizado!
+			    + String.format("%.2f", totalValueInStock());
+	}
+}
+
 }
