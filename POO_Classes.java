@@ -51,3 +51,14 @@ public class Main {
 		sc.close();
 	}
 }
+
+package entities;
+
+public class triangule {
+	//colocando os atributos:
+	public double a;
+	public double b;
+	public double c;
+}
+
+
