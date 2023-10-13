@@ -30,12 +30,8 @@ public class Main {
 		y.b = sc.nextDouble();
 		y.c = sc.nextDouble();
 		
-		double p = (x.a + x.b + x.c) / 2.0;
-		double areaX = Math.sqrt(p*(p - x.a)*(p - x.b)*(p - x.c));
-		
-
-		 p = (y.a + y.b + y.c) / 2.0;
-		double areaY = Math.sqrt(p*(p - y.a)*(p - y.b)*(p - y.c));
+		double areaX = x.area();
+		double areaY = y.area();
 		
 		System.out.println(areaX);
 		System.out.println(areaY);
@@ -59,6 +55,12 @@ public class triangule {
 	public double a;
 	public double b;
 	public double c;
+
+	//criando um funçao para calcular a area do triangulo:
+	public double area() {
+		double p = (a + b + c) / 2.0;
+		double result = Math.sqrt(p*(p - a)*(p-b)*(p-c));
+		return result;
 }
 
 
