@@ -30,11 +30,32 @@ public class Main {
 		else{
 			System.out.println("PASS");
 		}
-		
-		
-		
-		
+			
 		
 		sc.close();
 	}
 }
+package entities;
+
+public class Student {
+	public String name;
+	public double note1;
+	public double note2;
+	public double note3;
+
+	
+	public double notaDoAluno() {
+		return note1 + note2 + note3;
+	}
+	public double resultado() {
+		if(notaDoAluno() > 60) {
+			return 60.0 - notaDoAluno();
+		}
+		else {
+			return 0.0;
+		}
+		
+	
+
+}
+
