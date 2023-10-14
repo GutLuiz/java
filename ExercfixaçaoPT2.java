@@ -37,3 +37,23 @@ public class Main {
 		sc.close();
 	}
 }
+package entities;
+
+public class Funcionario {
+		public String Name;
+		public double GrossSalary;
+		public double Tax;
+		public double result;
+		
+		
+		
+		public double NetSalary() {
+			return GrossSalary - Tax;
+		}
+		public void increaseSalary(double percentage) {
+			 double increaseAmount = (GrossSalary * percentage) / 100;
+		        result = GrossSalary + increaseAmount - Tax;
+			   
+		}
+}
+
