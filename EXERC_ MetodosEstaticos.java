@@ -38,3 +38,13 @@ public class Main {
 		sc.close();
 }
 }
+package util;
+
+public class Dinheiro {
+	public static final double DOLAR = 5.05;
+	
+	public static double CurrencyConverter(double dolar2){
+		return (dolar2 * DOLAR) + ((dolar2 * 6) /100) ;
+	}
+}
+
