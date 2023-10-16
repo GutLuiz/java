@@ -21,7 +21,7 @@ public class Main {
 		  = declaraçao de constantes
 		 */
 		  //exemplos:
-		  //versao 2 (classe Calculator com membros de instancia):
+		  //versao 3 (colocando as classes diretamente na main):
 		
 		 
 		
