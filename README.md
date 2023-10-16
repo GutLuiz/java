@@ -1,1 +1,1 @@
-Este repositório contém todas as minhas anotações desde o início da minha jornada em Java - 17.
+Este repositório contém todas as minhas anotações do curso da Udemy (Nelio alves) desde o início da minha jornada em Java - 17.
