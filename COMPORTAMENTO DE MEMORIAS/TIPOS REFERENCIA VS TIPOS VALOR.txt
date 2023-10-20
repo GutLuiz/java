@@ -1,0 +1,21 @@
+                               TIPOS REERENCIA VS TIPO VALOR:
+		  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		  ==CLASSES SAO TIPOS REERENCIAS: variaveis cujo tipo sao classes nao deve, ser entendidadas como caixaas, mas sim "tentaculos"(eles guardam um endereço onde esta apontada os valores das caixas)
+		  -EXEMPLOS:
+		  Product p1, p2;
+		  p1 = new Product ("tv" , 900, 0) == P1 vai armazenar um endereço que aponta os valores de 3 caixas (tv, 900 e 0)
+		  p2 = p1; P2 tera o mesmo endereço de P1 apontando para as tres caixas.
+		  =VALOR "NULL": Tipos referencia aceitam o valor nulo, que indica que a variavel aponta para ninguem.
+		  - EXEMPLO:
+		  Prroduct p1, p2;
+		  
+		  p1 = new Product(tv,900, 0);
+		  p2 = null; ----> Isso é aceitado.
+		  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		  
+		  =TIPOS PRIMITIVOS SAO TIPOS VALOR: em java, tipos primitivos sao tipos valor. Tipos valor sao caixas e nao ponteiros.
+		  - EXEMPLOS:
+		  double x, y;
+		  
+		  x = 10 -----> É criado uma caixa X mostrando o real valor (10 no exemplo), nao um endereço para apontar, como na referencia.
+		  y = x-------> Y recebe umaa copia de X.  
