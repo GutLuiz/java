@@ -1,0 +1,16 @@
+	
+			-->DESALOCAÇAO DE MEMORIA:
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			= GARBAGE COLLECTOR:  É um processo que automatiza o gerenciamento de memoria de um programa em execuçao.
+			-EXEMPLO:
+			
+			Product p1, p2;
+			
+			p1 = new product ("tv");
+			p2 = new product ("mouse");
+			
+			p1 = p2 ------> o pontteiro do p1 sera direcionando para mouse, no exemplo, e tv sera desalocadp pelo GARBAGE COLLECTOR
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			
+			= ESCOPO: O escopo desaloca a informaçao que ja n serve mais, como por exemplo, em um IF quando acabar o If passa para outra linha de codigo.
+			
