@@ -22,33 +22,29 @@ public class Main {
 		}
 		
 		double media = 0;
+		
+		int pares = 0;
+		double soma = 0;
 		for(i = 0 ; i < n; i++) {
 			if(vect[i] % 2 == 0) {
-				media  = (vect[i] + media);
-			}else {
-				System.out.println("NENHUM PAR");
-			}
-		}
-		int divisao = 0;
-		for(i = 0 ; i < n; i++) {
-			if(vect[i] % 2 == 0) {
-				divisao += 1;
-				media /= divisao;
-				System.out.println("MEDIA DOS PARES = " + media);
-			}
+				soma  += vect[i];
+				pares ++;
 		}
 		
-		
-		
-		
-		
-		
-	
-		
+			
+		if(pares == 0) {
+			System.out.println("Nenhum numero par!");
+		}
+		else {
+			media = soma / pares;
+			System.out.println("Media dos pares: " + media);
+		}
 	
 		
 		
-		
+	
+	
 		sc.close();
 	}
+}
 }
