@@ -1,0 +1,11 @@
+ -----> PADRAO ISO 8601 <-----
+		 - A parte da data segue o formato YYYY-MM-DD 
+		 
+		 = DATA- [hora] Local:
+		 - 2022-07-21
+		 - 2022-07-21T14:52  // T = time.
+ 		  
+ 		 = DATA - hora global:
+ 		 - 2022-07-23T14:52:09Z //Z = Horario de Londres
+ 		 - 2022-07-23T13:44:09 - 03:00 //Menos "03:00" do Horario padrao. 
+ 		  
