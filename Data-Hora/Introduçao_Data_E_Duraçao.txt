@@ -1,0 +1,18 @@
+	  -----> DATA E HORA E DURAÇAO <-------
+		  =CONCEITOS IMPORTANTES:
+		  - Data-[hora] local:  ano-mes-dia-[hora] sem fusa horario // [hora] opcional.
+		  - Data-Hora global: ano-mes-dia-hora com fuso horario
+		  - Duraçao : tempo decorrido entre as duas data-horas
+		  
+		  = QUANDO USAR?
+		  - Data - [hora] local: Quando o momento exato nao interessa a pessoas de outro fuso horario.
+		  ==Uso comum : sistemas de regiao unica, excel.
+				-- data de nascimento : "15/06/2333"
+				-- Data - hora da venda : "12/09/2009 as 01:01" (presumindo nao interessar fuso horario)
+				
+		  - Data-Hora global: Quando o momento exato interessa a pessoas de outro fuso horario.
+		  ==Uso comum: sistemas de multi-regiao, web.
+		  		-- Quando sera o sorteio? "21/08/2023 as 20 horas ( horario de sao paulo)"
+		  		-- Quando o comentario foi postado? "ha 17 minutos"
+		  
+		  
