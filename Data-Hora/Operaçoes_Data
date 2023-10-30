@@ -1,0 +1,23 @@
+ OPERAÇOES MAIS IMPORTANTES COM DATA-HORA:
+		 =Instanciaçao:
+		 -(agora) -> Data-Hora 
+		 - Texto ISO 8601 -> Data-Hora
+		 - Texto formato customizado -> Data-Hora
+		 - dia, mes, ano, [Horario] -> Data-hora local
+		 
+		 
+		 =Formataçao:
+		 -Data-Hora -> texto ISO 8601
+		 -Data-Hora -> Texto formato customizado
+ 		  
+ 		  
+ 		  OPERAÇOES IMPORTANTES COM DATA-HORA:
+ 		  =Obter dados de uma data-hora local:
+ 		  - Data-Hora local -> dia, mes, ano, horario
+ 		  
+ 		  =Converter Data-Hora global para local:
+ 		  -Data-hora global, fuso-horario (sistema local) -> Data-hora local
+ 		  
+ 		  =Calculos com data-hora:
+ 		  -Data-Hora +/- tempo -> Data-hora
+ 		  -Data-Hora 1, Data-hora 2 -> Duraçao
