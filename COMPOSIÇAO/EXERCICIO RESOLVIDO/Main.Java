@@ -4,7 +4,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
-
 import entities.Departamento;
 import entities.HoraContrato;
 import entities.Work;
@@ -17,7 +16,7 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		
 		Scanner sc = new Scanner(System.in);
-		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyy");
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyy");//permite formatar e analisar datas em um determinado padrão.
 		
 		/*
 		    ----> COMPOSIÇAO <-----
@@ -32,6 +31,7 @@ public class Main {
 		 */
 		//exemplo resolvido:
 		
+		//colocando os prints que vao aparecer no terminal:
 		System.out.print("Enter department name: ");
 		String departamentoNome = sc.nextLine();
 		
@@ -45,12 +45,15 @@ public class Main {
 		System.out.print("Base salary:  ");
 		double workerSalary = sc.nextDouble();
 		
+		//instanciando a clase trabalho:
 		Work worker = new Work(workerName, WorkLevel.valueOf(workerLevel), workerSalary, new Departamento(departamentoNome));
 		
+		//Perguntando a quantidade de contratos:
 		System.out.print("How many contracts to this worker? ");
 		int n = sc.nextInt();
 		
-		for(int i = 0; i < n ; i++) {
+		//Criando um for para ler os dados dos contratos:
+		for(int i = 1; i < n ; i++) {
 			System.out.println("Enter contract #" + i + "data:");
 			System.out.print("Date (DD/MM/YYYY): " );
 			Date contractDate = sdf.parse(sc.next());
@@ -58,12 +61,12 @@ public class Main {
 			double valuePerHour = sc.nextDouble();
 			System.out.print("Duration(Hours): ");
 			int hours = sc.nextInt();
-			HoraContrato contract = new HoraContrato(contractDate, valuePerHour, hours);
-			worker.addContract(contract);
+			HoraContrato contract = new HoraContrato(contractDate, valuePerHour, hours);//Instanciando o contrato
+			worker.addContract(contract);//associando a classe trabalho com o contrato
 		}
 		
 		System.out.println();
-		
+		//Falando para entrar o mes e ano para calcular a soma de tudo:
 		System.out.print("Enter month and year to calculate income(MM/YYYY): ");
 		String monthAndYear = sc.next();
 		
