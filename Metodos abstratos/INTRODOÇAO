@@ -1,0 +1,7 @@
+/*
+      Metodos ABASTRATAS:
+      = SAO metodos que nao possuem implementaçao 
+      == Metodos precisam ser abastratos quando a classe é generica demais para conter sua implementaçao 
+      === Se uma classe possuir pelo menos um metodo abstrato, entao esta classe tambem é abstrata.
+      
+     */
