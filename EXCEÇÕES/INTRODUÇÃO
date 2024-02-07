@@ -1,0 +1,11 @@
+   EXCEÇOES:
+      =Uma exceçao é qualquer condiçao de erro ou coportamento inesperado encontrado por um programa em execuçao.
+      == Quando lançada, uma exeçao é propagada na pilha de chamadas de metodos em execuçao, ate que seja capturada (tratada) ou o programa seja encerrado.
+      
+      Por que exceçoes?
+      = O modelo de tratamento de exceçoes permite que erros sejam tratados de forma consistente e flexivel, usando boas praticas.
+      
+      VANTAGENS:
+      = Delega a logica do erro para a classe responsavel por conhecer as regras que podem ocasionar o erro.
+      = trata de forma organizada (inclusive hierarquica) exceçoes de tipos diferentes 
+      = A exceçao pode carregar dados quaisquer
