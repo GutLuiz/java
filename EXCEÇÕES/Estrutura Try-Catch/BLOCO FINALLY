@@ -1,0 +1,8 @@
+/*
+		  BLOCO FINALLY:
+		 = É um bloco que contem codigo a ser executado independentemente de ter ocorrido ou nao uma exceçao.
+		 = EXEMPLO CLASSICO: fechar um arquivo, conexao de banco de dados ou outro recurso especifico ao final do processamento.
+		 
+		 
+		
+		 */
