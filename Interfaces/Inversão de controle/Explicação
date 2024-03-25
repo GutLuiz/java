@@ -1,0 +1,8 @@
+-----> INVERSÃO DE CONTROLE:
+  -Padrão de desenvolvimento que consiste em retirar da classe a responsabilidade de instanciar suas dependencias.
+
+-----> Injeção de dependencia:
+  - É uma forma de realizar a inversão de controle: um componente externo instancia a dependencia, que é então injetada no objeto "pai". Pode ser implemnetada de varias formas:
+    = contrutor
+    = classe de instanciação (builder/factory)
+    = Container / framework
