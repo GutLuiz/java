@@ -1,0 +1,15 @@
+ -> Aspectos comuns entre herança e interface:
+		  
+		  - relação é-um:
+		  	== Da mesma forma, por exemplo, uma classe abstrata temn duas subclasses a interface tem a mesma relação com classes que ela se conecta.
+		  - Generalização/ especialição:
+		  	== Os dois tem um tipo generico e  especializaçoes, como por exemplo, as subclasses.
+		  - Polimorfismo:
+		  	== A classes genericas pode se variada de acordo com a especialização.
+		 
+ -> Diferenças fundamentais: 	
+		  
+		  -	Herança: Ela seria um reuso
+		  - Interface: Ela é um contrato a ser cumprid
+		  
+		
