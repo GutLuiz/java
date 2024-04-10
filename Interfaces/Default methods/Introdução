@@ -1,0 +1,8 @@
+   DEFAUT METHODS:
+        - As interfaces podem ter metodos concretos
+        - A intenção basica é prover implementação padrão para metodos, de modo a evitar:
+            == Repetição de implementação em toda classe que implemnte a interface
+            == A necessidade de se criar classes abstratas para prover reuso da implemnetação
+        - Outras vatangens:
+            == Manter a retroocompatibilidade com sistemas existentes
+            == Permitir que "interfaces funcionais" (que devem conter apenas um metodo) possam prover outras operações padrão utilizaveis.
