@@ -6,3 +6,9 @@
         - Outras vatangens:
             == Manter a retroocompatibilidade com sistemas existentes
             == Permitir que "interfaces funcionais" (que devem conter apenas um metodo) possam prover outras operações padrão utilizaveis.
+
+        = Considerações importantes:
+            - As interfaces podem prover reuso
+            - Temos uma forma de herança multipla:
+               == Mas o compilador reclama se houver mais de um metodo com a mesma assinatura, obrigando a sobrescrevelo.
+            - As interfaces ainda são bem diferentes de classes abstratas. Interfaces não possuem recursos teais como construtores e atributos.
