@@ -1,0 +1,6 @@
+ GENERICS:
+          - Generics permitem que classes, interfaces e metodos possam ser parametrizados por tipo. Seus beneficios sao:
+             =  Reuso
+             = type safety
+             = Performance
+          - Uso comum: coleções
