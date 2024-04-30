@@ -1,0 +1,11 @@
+/*
+         SET<T>: Representa um conjunto de elementos(similar ao da algebra)
+            - Não admite repetições
+            - Elementos não possuem posição
+            - Acesso, inserção e remoção de elementos rapidos
+            - Oferece operações eficientes de conjunto: Interseção, união, diferença.
+            - Principais implementtações:
+                    == HashSet: Mais rapido (operações o(1) em tabela hash) e não ordenado
+                    == TreeSet: Mais lento (operações o(log(n)) em arvore rubro-negra) e ordenado pelo compareTo do objeto
+                    == LinkedHashSet: Velocidade intermediaria e elementos na ordem em que são adicionados.
+        */
