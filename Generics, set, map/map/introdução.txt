@@ -1,0 +1,13 @@
+/*
+         É uma coleção de pares chave/valor
+            - Não admite repetições do objeto chave
+            - Os elementos são indexados pelo objetivo chave (não possuem posição)
+            - Acesso, inserção e remoção de elementos são rapidos
+            
+         Uso comum: cookies, local storage, qualquer modelo chave-valor
+
+         Principais implementações:
+            -HashMap: mais rapido (operações o(1) em tabbela hash) e não ordenado
+            - TreeMap: Mais lento (operações O(log(n)) em arvore rubro-negra) e ordenado pelo compareTo do objeto (ou comparator)
+            - LinkedHashMap: velocidade intermidiaria e elementos na ordem em que são adicionados
+         */
